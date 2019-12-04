@@ -134,7 +134,7 @@ const notCompleteFirst = (todos) => twoPileSort(todos, (todo) => !todo.complete)
 
 const priority2First = (todos) => twoPileSort(todos, (todo) => todo.priority === 2)
 
-
+if (module){
 module.exports = {
   map,
   filter,
@@ -152,4 +152,5 @@ module.exports = {
   priority1Only,
   notCompleteFirst,
   priority2First,
+}
 }
