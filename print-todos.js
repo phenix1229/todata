@@ -6,5 +6,5 @@ const printTodos = function(todos) {
 }
 
 printTodos(todos);
-
-document.querySelector('.add-todo').addEventListener('click', () => printTodo(addTodo))
+// const userInput = document.querySelector('input').value
+// document.querySelector('.add-todo').addEventListener('click', () => printTodo(addTodo(userInput)))
