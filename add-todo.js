@@ -10,10 +10,8 @@ const addTodo = function(todo) {
     priority:1,
   }
   
-  todos.push(obj)
-  clearTodos()
-  // namesAndPriorities(todos)
-  printTodos(todos) 
+  currentTodos.push(obj)
+  refreshTodos() 
 }
 
 // const userInput = document.querySelector('input');
