@@ -5,9 +5,9 @@ const clearTodos = function() {
   }
 }
 
-const filterTodoButton =document.querySelector('.filter-todo')
-const list = document.querySelectorAll('li')
-const newList = []
-newList.push(list)
+// const filterTodoButton =document.querySelector('.filter-todo')
+// const list = document.querySelectorAll('li')
+// const newList = []
+// newList.push(list)
 
-filterTodoButton.addEventListener('click', newList.filter(todos))
+// filterTodoButton.addEventListener('click', newList.filter((todos)=> justComplete(todos)))
