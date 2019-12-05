@@ -12,7 +12,8 @@ const addTodo = function(todo) {
   
   todos.push(obj)
   clearTodos()
-  printTodos(todos)
+  // namesAndPriorities(todos)
+  printTodos(todos) 
 }
 
 // const userInput = document.querySelector('input');

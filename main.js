@@ -121,6 +121,11 @@ const namesAndPriorities = (todos) => todos.map((todo) => {
     return `${todo.text} - ${priority}`
 })
 
+// const Priorities = (todo) => todo.map((todo) => {
+//   const priority = todo.priority === 2 ? 'High' : 'Low';
+//   return `${todo.text} - ${priority}`
+// })
+
 const justNotComplete = (todos) => todos.filter((todo) => !todo.complete)
 
 const justComplete = (todos) => todos.filter((todo) => todo.complete)
